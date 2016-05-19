@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Learn Mandarin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="Next">Next</string>
+    <string name="title_activity_numeracy">NumeracyActivity</string>
+    <string name="title_activity_shape">ShapeActivity</string>
+    <string name="title_activity_family">FamilyActivity</string>
+    <string name="title_activity_body">BodyActivity</string>
+    <string name="title_activity_basci_comm">BasciCommActivity</string>
+    <string name="Back">Back</string>
+    <string name="colorexercie">Colour 颜色</string>
+    <string name="numeracyexercise">Numeracy 号码</string>
+    <string name="shapeexercise">Shape 形状</string>
+    <string name="myfamily">My Family 家庭</string>
+    <string name="bodyexercise">Part of Body 身体</string>
+    <string name="basiccommexercise">Basic Communication</string>
+    <string name="title_activity_color_exercise">ColorExerciseActivity</string>
+    <string name="title_activity_numeracy_execise">NumeracyExeciseActivity</string>
+    <string name="title_activity_shape_exercise">ShapeExerciseActivity</string>
+    <string name="title_activity_family_exercise">FamilyExerciseActivity</string>
+    <string name="title_activity_body_exercise">BodyExerciseActivity</string>
+    <string name="title_activity_basic_comm_exercise">BasicCommExerciseActivity</string>
+    <string name="Start">Start</string>
+    <string name="exercise_score">Exercise Score 练习成绩</string>
+    <string name="exercise">Exercise 锻炼</string>
+    <string name="exerciseenglish">Exercise</string>
+    <string name="score">Score</string>
+    <string name="Loading">loading..</string>
+
+</resources>

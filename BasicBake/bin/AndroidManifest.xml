@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicbake"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SplashscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecipesActivity"
+            android:label="@string/title_activity_recipes" >
+        </activity>
+        <activity
+            android:name=".BasicActivity"
+            android:label="@string/title_activity_basic" >
+        </activity>
+        <activity
+            android:name=".ButterCakeActivity"
+            android:label="@string/title_activity_butter_cake" >
+        </activity>
+        <activity
+            android:name=".TopRecipesActivity"
+            android:label="@string/title_activity_top_recipes" >
+        </activity>
+        <activity
+            android:name=".TimerActivity"
+            android:label="@string/title_activity_timer" >
+        </activity>
+        <activity
+            android:name=".WatchActivity"
+            android:label="@string/title_activity_watch" >
+        </activity>
+        <activity
+            android:name=".EndTimerActivity"
+            android:label="@string/title_activity_end_timer" >
+        </activity>
+        <activity
+            android:name=".ToolsActivity"
+            android:label="@string/title_activity_tools" >
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="@string/title_activity_quiz" >
+        </activity>
+        <activity
+            android:name=".Quizpart1Activity"
+            android:label="@string/title_activity_quizpart1" >
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".GeneralTipsActivity"
+            android:label="@string/title_activity_general_tips" >
+        </activity>
+        <activity
+            android:name=".DecorationTipsActivity"
+            android:label="@string/title_activity_decoration_tips" >
+        </activity>
+        <activity
+            android:name=".TipActivity"
+            android:label="@string/title_activity_tip" >
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_vedio" >
+        </activity>
+        <activity
+            android:name=".IllustrationTipsActivity"
+            android:label="@string/title_activity_illustration_tips" >
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name=".NutritionActivity"
+            android:label="@string/title_activity_nutrition" >
+        </activity>
+        <activity
+            android:name=".ReadNutritionActivity"
+            android:label="@string/title_activity_read_nutrition" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.basicbake.ToolsActivity" >
+
+    <ImageView
+        android:id="@+id/imgtools1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/basictools" />
+    
+    <Button
+        android:id="@+id/btnbasictools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:background="#fff"
+        android:text="@string/basictools"
+        android:textColor="@color/purpel" />
+
+    <TextView
+        android:id="@+id/texttools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbasictools"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/press"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btntoolsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="24dp"
+        android:background="#fff"
+        android:text="@string/Back"
+        android:textColor="@color/purpel"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/btntoolsnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btntoolsback"
+        android:layout_alignBottom="@+id/btntoolsback"
+        android:layout_alignParentRight="true"
+        android:background="#fff"
+        android:text="@string/next"
+        android:textColor="@color/purpel"
+        android:visibility="invisible"
+         />
+
+</RelativeLayout>

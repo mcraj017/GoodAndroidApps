@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnmalay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sing_up" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name=".TutorialActivity"
+            android:label="@string/title_activity_tutorial" >
+        </activity>
+        <activity
+            android:name=".VerbActivity"
+            android:label="@string/title_activity_verb" >
+        </activity>
+        <activity
+            android:name=".DictionaryActivity"
+            android:label="@string/title_activity_dictionary" >
+        </activity>
+        <activity
+            android:name=".GrammarActivity"
+            android:label="@string/title_activity_grammar" >
+        </activity>
+        <activity
+            android:name=".ExerciseActivity"
+            android:label="@string/title_activity_exercise" >
+        </activity>
+        <activity
+            android:name=".Module1Activity"
+            android:label="@string/title_activity_module1" >
+        </activity>
+        <activity
+            android:name=".Module2Activity"
+            android:label="@string/title_activity_module2" >
+        </activity>
+        <activity
+            android:name=".Module3Activity"
+            android:label="@string/title_activity_module3" >
+        </activity>
+        <activity
+            android:name=".GrammarExerciseActivity"
+            android:label="@string/title_activity_grammar_exercise" >
+        </activity>
+        <activity
+            android:name=".GrammarExerciseActivity2"
+            android:label="@string/title_activity_grammar_exercise_activity2" >
+        </activity>
+        <activity
+            android:name=".GrammarExerciseActivity3"
+            android:label="@string/title_activity_grammar_exercise_activity3" >
+        </activity>
+        <activity
+            android:name=".VerbExerciseActivity"
+            android:label="@string/title_activity_verb_exercise" >
+        </activity>
+        <activity
+            android:name=".DictionaryExerciseActivity"
+            android:label="@string/title_activity_dictionary_exercise" >
+        </activity>
+        <activity
+            android:name=".GrammarExerciseEndActivity"
+            android:label="@string/title_activity_grammar_exercise_end" >
+        </activity>
+        <activity
+            android:name=".VerbExerciseEndActivity"
+            android:label="@string/title_activity_verb_exercise_end" >
+        </activity>
+        <activity
+            android:name=".DictionaryExerciseEndActivity"
+            android:label="@string/title_activity_dictionary_exercise_end" >
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:label="@string/title_activity_score" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WomenSafetyApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="womensafety">Women Safety</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="fakepolicesieren">FAKE POLICE SIREN</string>
+    <string name="torch">TORCH</string>
+    <string name="batterystatus">BATTERY STATUS</string>
+    <string name="safetytips">SAFETY TIPS</string>
+    <string name="Options">Oprions</string>
+    <string name="options">OPTIONS</string>
+    <string name="title_activity_safety_tips">SafetyTips</string>
+    <string name="findme">FIND ME</string>
+    <string name="title_activity_second_main">SecondMainActivity</string>
+    <string name="messagenotsent">MESSAGE NOT SENT</string>
+    <string name="add">ADD</string>
+    <string name="title_activity_phone_number">PhoneNumberActivity</string>
+    <string name="number">NUMBER</string>
+    <string name="shownumbers">SHOW NUMBERS</string>
+    <string name="gpslocation">GPS Location</string>
+    <string name="addcontacts">ADD CONTACTS</string>
+    <string name="clearnumbers">CLEAR CONTACTS</string>
+
+</resources>

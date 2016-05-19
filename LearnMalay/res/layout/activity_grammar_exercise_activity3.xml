@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/GrammarExercise" />
+
+        <ImageView
+            android:id="@+id/GrammarQuestionImage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pressnext" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="#ffffff"
+            >
+
+            <Button
+                android:id="@+id/GrammarOptionA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OptionA" />
+
+            <Button
+                android:id="@+id/GrammarOptionB3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OptionB" />
+
+            <Button
+                android:id="@+id/GrammarOptionC3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OptionC" />
+            </LinearLayout>
+               
+               <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="#ffffff"
+            >
+
+            <TextView
+                android:id="@+id/GrammarAnswerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Answer" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

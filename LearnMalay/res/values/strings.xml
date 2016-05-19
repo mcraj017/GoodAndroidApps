@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikasi Belajar Bahasa Melayu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Getting_Started">Getting Started</string>
+    <string name="Title">Learn Malay</string>
+    <string name="Tagline">"SELAMAT DATANG SILA MASUKKAN DAN KATA LALUAN ANDA "</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sing_up">SingUpActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Welcome">Welcome</string>
+    <string name="WelcomeMalay">Selamat Datang</string>
+    <string name="TutorialMalay">Belajar</string>
+    <string name="Exercise">Latihan</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="GaramarMalay">Tatabahasa</string>
+    <string name="VerbMalay">Kata Kerja</string>
+    <string name="DictionaryMalay">Kata Adjektif</string>
+    <string name="title_activity_verb">VerbActivity</string>
+    <string name="title_activity_dictionary">DictionaryActivity</string>
+    <string name="title_activity_grammar">GrammarActivity</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_activity_module1">Module1Activity</string>
+    <string name="module_1"> Kata Ganti Nama Diri</string>
+    <string name="Next">Seterusnya</string>
+    <string name="title_activity_module2">Module2Activity</string>
+    <string name="Module2">Kata Nama Am</string>
+    <string name="title_activity_module3">Module3Activity</string>
+    <string name="module3">Kata Bilangan</string>
+    <string name="mainmsg1">Selamat Datang Ke Aplikasi Belajar Bahasa Melayu</string>
+    <string name="mainmsg2">Untuk Pengguna Baru Sila Ke Daftar Masuk Terlebih Dahulu Untuk Mendaftar</string>
+    <string name="mainmsg3">Untuk Pengguna Yang Sudah Mendaftar Terus Ke Log Masuk</string>
+    <string name="LoginMalay">Log Masuk</string>
+    <string name="SignupMalay">Daftar Masuk</string>
+    <string name="loginmsg">Sila Masukkan Nama Dan Kata Laluan Anda</string>
+    <string name="AccountRegisterMalay">Daftar Akaun</string>
+    <string name="SignUpmsg">Sila Masukkan Nama Dan Kata Laluan Anda Untuk Mandaftar Akan Anda</string>
+    <string name="Studentmsg">Sila Buat Pilihan Untuk Mengakses Aplikasi Ini</string>
+    <string name="pleasechooseMalay">Sila Buat Pilihan Modul Anda Untuk Belajar</string>
+    <string name="tutorialmsg">Sila Buat Pilihan Modul Anda Untuk Belajar</string>
+    <string name="Back">Kembali</string>
+    <string name="Logout">Log Keluar</string>
+    <string name="GQ1a">Datuk</string>
+    <string name="GQ1b">Nenek</string>
+    <string name="GQ2a">Doktor</string>
+    <string name="GQ2b">Polis</string>
+    <string name="GQ3a">Kereta</string>
+    <string name="GQ3b">Basikal</string>
+    <string name="GQ4a">Awak</string>
+    <string name="GQ4b">Saya</string>
+    <string name="GQ5a">Aku</string>
+    <string name="GQ5b">Kami</string>
+    <string name="GQ6a">Saya</string>
+    <string name="GQ6b">Kita</string>
+    <string name="GQ7a">Sebiji</string>
+    <string name="GQ7b">Sebakul</string>
+    <string name="GQ7c">Sebuah</string>
+    <string name="GQ8a">Sebiji</string>
+    <string name="GQ8b">Sebuah</string>
+    <string name="GQ8c">Sekaki</string>
+    <string name="GQ9a">Satu</string>
+    <string name="GQ9b">Tiga</string>
+    <string name="GQ9c">Dua</string>
+    <string name="GQ10a">Kedua</string>
+    <string name="GQ10b">Ketiga</string>
+    <string name="GQ10c">Keempat</string>
+    <string name="GQ11a">Kereta</string>
+    <string name="GQ11b">Sebuah</string>
+    <string name="GQ11c">Itu</string>
+    <string name="GQ12a">Itu</string>
+    <string name="GQ12b">Kucing</string>
+    <string name="GQ12c">Seekor</string>
+    <string name="GQ13a">Itu</string>
+    <string name="GQ13b">Saya</string>
+    <string name="GQ13c">Nenek</string>
+
+    <string-array name="GrammarQuestionsandAnswers1">
+        <item>@string/GQ1a</item>
+        <item>@string/GQ1b</item>
+        <item>@string/GQ2a</item>
+        <item>@string/GQ2b</item>
+        <item>@string/GQ3a</item>
+        <item>@string/GQ3b</item>
+        <item>@string/GQ4a</item>
+        <item>@string/GQ4b</item>
+        <item>@string/GQ5a</item>
+        <item>@string/GQ5b</item>
+        <item>@string/GQ6a</item>
+        <item>@string/GQ6b</item>
+    </string-array>
+    <string-array name="GrammarQuestionsandAnswers2">
+        <item>@string/GQ7a</item>
+        <item>@string/GQ7b</item>
+        <item>@string/GQ7c</item>
+        <item>@string/GQ8a</item>
+        <item>@string/GQ8b</item>
+        <item>@string/GQ8c</item>
+        <item>@string/GQ9a</item>
+        <item>@string/GQ9b</item>
+        <item>@string/GQ9c</item>
+        <item>@string/GQ10a</item>
+        <item>@string/GQ10b</item>
+        <item>@string/GQ10c</item>
+    </string-array>
+    <string-array name="GrammarQuestionsandAnswers3">
+        <item>@string/GQ11a</item>
+        <item>@string/GQ11b</item>
+        <item>@string/GQ11c</item>
+        <item>@string/GQ12a</item>
+        <item>@string/GQ12b</item>
+        <item>@string/GQ12c</item>
+        <item>@string/GQ13a</item>
+        <item>@string/GQ13b</item>
+        <item>@string/GQ13c</item>
+    </string-array>
+
+    <string name="title_activity_grammar_exercise">GrammarExerciseActivity</string>
+    <string name="GrammarExercise">Latihan Tatabahasa</string>
+    <string name="OptionA">Option A</string>
+    <string name="Question">Question</string>
+    <string name="OptionB">Option B</string>
+    <string name="title_activity_grammar_exercise_activity2">GrammarExerciseActivity2</string>
+    <string name="OptionC">Option C</string>
+    <string name="title_activity_grammar_exercise_activity3">GrammarExerciseActivity3</string>
+    <string name="OptionD">Option D</string>
+    <string name="OptionE">Option E</string>
+    <string name="OptionF">Option F</string>
+    <string name="OptionG">Option G</string>
+    <string name="Answer">Jawapan</string>
+    <string name="title_activity_verb_exercise">VerbExerciseActivity</string>
+    <string name="VQ1a">Menyiram</string>
+    <string name="VQ1b">Mencuci</string>
+    <string name="VQ2a">Berlari</string>
+    <string name="VQ2b">Bermain</string>
+    <string name="VQ3a">Mengelap</string>
+    <string name="VQ3b">Menyusun</string>
+    <string name="VQ4a">Mencabut</string>
+    <string name="VQ4b">Menggali</string>
+    <string name="VQ5a">Mencuci</string>
+    <string name="VQ5b">Memasak</string>
+    <string name="VQ6a">Berenang</string>
+    <string name="VQ6b">Berlari</string>
+    <string name="VQ7a">Membaca</string>
+    <string name="VQ7b">Menyusun</string>
+    <string name="VQ8a">Makan</string>
+    <string name="VQ8b">Minum</string>
+    <string name="VQ9a">Mengayuh Basikal</string>
+    <string name="VQ9b">Memandu</string>
+
+    <string-array name="VerbQuestionsandAnswers">
+        <item>@string/VQ1a</item>
+        <item>@string/VQ1b</item>
+        <item>@string/VQ2a</item>
+        <item>@string/VQ2b</item>
+        <item>@string/VQ3a</item>
+        <item>@string/VQ3b</item>
+        <item>@string/VQ4a</item>
+        <item>@string/VQ4b</item>
+        <item>@string/VQ5a</item>
+        <item>@string/VQ5b</item>
+        <item>@string/VQ6a</item>
+        <item>@string/VQ6b</item>
+        <item>@string/VQ7a</item>
+        <item>@string/VQ7b</item>
+        <item>@string/VQ8a</item>
+        <item>@string/VQ8b</item>
+        <item>@string/VQ9a</item>
+        <item>@string/VQ9b</item>
+    </string-array>
+
+    <string name="title_activity_dictionary_exercise">DictionaryExerciseActivity</string>
+    <string name="DQ1a">K</string>
+    <string name="DQ1b">A</string>
+    <string name="DQ1c">N</string>
+    <string name="DQ1d">A</string>
+    <string name="DQ1e">L</string>
+    <string name="DQ2a">R</string>
+    <string name="DQ2b">I</string>
+    <string name="DQ2c">J</string>
+    <string name="DQ2d">A</string>
+    <string name="DQ2e">N</string>
+    <string name="DQ3a">D</string>
+    <string name="DQ3b">A</string>
+    <string name="DQ3c">I</string>
+    <string name="DQ3d">P</string>
+    <string name="DQ3e">A</string>
+    <string name="DQ3f">N</string>
+    <string name="DQ4a">L</string>
+    <string name="DQ4b">A</string>
+    <string name="DQ4c">M</string>
+    <string name="DQ4d">A</string>
+    <string name="DQ4e">S</string>
+    <string name="DQ5a">K</string>
+    <string name="DQ5b">A</string>
+    <string name="DQ5c">I</string>
+    <string name="DQ5d">B</string>
+
+    <string-array name="DictionaryQuestionsandAnswers">
+        <item>@string/DQ1a</item>
+        <item>@string/DQ1b</item>
+        <item>@string/DQ1c</item>
+        <item>@string/DQ1d</item>
+        <item>@string/DQ1e</item>
+        <item>@string/DQ2a</item>
+        <item>@string/DQ2b</item>
+        <item>@string/DQ2c</item>
+        <item>@string/DQ2d</item>
+        <item>@string/DQ2e</item>
+        <item>@string/DQ3a</item>
+        <item>@string/DQ3b</item>
+        <item>@string/DQ3c</item>
+        <item>@string/DQ3d</item>
+        <item>@string/DQ3e</item>
+        <item>@string/DQ3f</item>
+        <item>@string/DQ4a</item>
+        <item>@string/DQ4b</item>
+        <item>@string/DQ4c</item>
+        <item>@string/DQ4d</item>
+        <item>@string/DQ4e</item>
+        <item>@string/DQ5a</item>
+        <item>@string/DQ5b</item>
+        <item>@string/DQ5c</item>
+        <item>@string/DQ5d</item>
+    </string-array>
+
+    <string name="title_activity_grammar_exercise_end">GrammarExerciseEndActivity</string>
+    <string name="ThankYou">Terima kasih</string>
+    <string name="endmsg1">"Anda telah berjaya menjawab"</string>
+    <string name="endmsg2">kesemua soalan</string>
+    <string name="scoremsg">Skor Anda:</string>
+    <string name="endmsg3">Sila tekan seterusnya untuk</string>
+    <string name="endmsg4">ke bahagian Latihan</string>
+    <string name="title_activity_verb_exercise_end">VerbExerciseEndActivity</string>
+    <string name="title_activity_dictionary_exercise_end">DictionaryExerciseEndActivity</string>
+    <string name="gotomain">Sila tekan seterusnya untuk ke halaman utama</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="UserName">Nama Pengguna</string>
+    <string name="MarksMalay">Markah</string>
+
+</resources>

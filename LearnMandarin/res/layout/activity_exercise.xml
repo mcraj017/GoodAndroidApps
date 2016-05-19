@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercisebg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.learnmandarin.ExerciseActivity" >
+
+    <Button
+        android:id="@+id/basiccommexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/basiccommexercise" />
+
+    <Button
+        android:id="@+id/colorexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numeracyexercisebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/colorexercie" />
+
+    <Button
+        android:id="@+id/shapeexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myfamilyexercisebtn"
+        android:layout_alignRight="@+id/colorexercisebtn"
+        android:layout_marginBottom="22dp"
+        android:text="@string/shapeexercise" />
+
+    <Button
+        android:id="@+id/bodyexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/basiccommexercisebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/bodyexercise" />
+
+    <Button
+        android:id="@+id/numeracyexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shapeexercisebtn"
+        android:layout_alignLeft="@+id/myfamilyexercisebtn"
+        android:layout_marginBottom="18dp"
+        android:text="@string/numeracyexercise" />
+
+    <Button
+        android:id="@+id/myfamilyexercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bodyexercisebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/myfamily" />
+
+</RelativeLayout>

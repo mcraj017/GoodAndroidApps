@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.basicbake.GeneralTipsActivity" >
+
+     <Button
+         android:id="@+id/btngeneraltip1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="22dp"
+         android:background="#fff"
+         android:text="@string/Tip1"
+         android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="#fff"
+        android:text="@string/Tip2"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:background="#fff"
+        android:text="@string/Tip3"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="#fff"
+        android:text="@string/Tip4"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:background="#fff"
+        android:text="@string/Tip5"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="322dp"
+        android:background="#fff"
+        android:text="@string/Tip6"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btngeneraltip7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="382dp"
+        android:background="#fff"
+        android:text="@string/Tip7"
+        android:textColor="@color/purpel" />
+    <Button
+        android:id="@+id/btngeneralback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btngeneraltip7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#ff69b4"
+        android:shadowRadius="1"
+        android:text="@string/Back"
+        android:textColor="@color/purpel" />
+
+</RelativeLayout>

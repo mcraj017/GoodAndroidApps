@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.learnmandarin.ColorExerciseActivity" >
+
+    <ImageButton
+        android:id="@+id/OptionbtnA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MandarinWordImage"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/optiona" />
+
+    <ImageButton
+        android:id="@+id/OptionbtnB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/OptionbtnA"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/optionb" />
+
+    <ImageButton
+        android:id="@+id/OptionbtnD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/OptionbtnC"
+        android:layout_alignRight="@+id/OptionbtnB"
+        android:src="@drawable/optiond" />
+
+    <ImageView
+        android:id="@+id/MandarinWordImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mandarinwordexercise" />
+
+    <ImageButton
+        android:id="@+id/OptionbtnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/OptionbtnA"
+        android:layout_below="@+id/OptionbtnA"
+        android:src="@drawable/optionc" />
+
+    <Button
+        android:id="@+id/NextExercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OptionbtnD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="@string/Start" />
+
+    <ImageButton
+        android:id="@+id/Playcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OptionbtnC"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/playimg" />
+
+</RelativeLayout>

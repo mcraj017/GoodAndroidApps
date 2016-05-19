@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.basicbake.RecipesActivity" >
+
+<Button
+    android:id="@+id/btnbasic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="82dp"
+    android:background="#fff"
+    android:text="@string/BASIC"
+    android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btntoprecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:background="#fff"
+        android:text="@string/TOP_RECIPES"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btnmeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="#fff"
+        android:shadowRadius="1"
+        android:text="@string/MEASUREMENT"
+        android:textColor="@color/purpel" />
+    <Button
+        android:id="@+id/btnrecipesback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="282dp"
+        android:background="#ff69b4"
+        android:shadowRadius="1"
+        android:text="@string/Back"
+        android:textColor="@color/purpel" />
+
+</RelativeLayout>

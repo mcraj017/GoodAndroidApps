@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Learn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/learnbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.learnmandarin.LearnActivity" >
+
+    <ImageButton
+        android:id="@+id/Colorbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/colour" />
+
+    <ImageButton
+        android:id="@+id/Numeracybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Colorbtn"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Colorbtn"
+        android:src="@drawable/numeracy" />
+
+    <ImageButton
+        android:id="@+id/Shapebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Colorbtn"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/Numeracybtn"
+        android:src="@drawable/shape" />
+
+    <ImageButton
+        android:id="@+id/MyFamilybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Numeracybtn"
+        android:layout_alignTop="@+id/Shapebtn"
+        android:src="@drawable/my_family" />
+
+    <ImageButton
+        android:id="@+id/Basicbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MyFamilybtn"
+        android:layout_alignTop="@+id/MyBodybtn"
+        android:src="@drawable/basic" />
+
+    <ImageButton
+        android:id="@+id/MyBodybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Shapebtn"
+        android:layout_below="@+id/Shapebtn"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/my_body" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.basicbake.MainActivity" >
+
+    <Button
+        android:id="@+id/btnrecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:text="@string/RECIPES"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btnquiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="#fff"
+        android:text="@string/QUIZ"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btntimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:background="#fff"
+        android:text="@string/TIMER"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btnnutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="#fff"
+        android:text="@string/NUTRITION"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btntips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:background="#fff"
+        android:text="@string/TIPS"
+        android:textColor="@color/purpel" />
+
+    <Button
+        android:id="@+id/btnvedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="322dp"
+        android:background="#fff"
+        android:text="@string/VIDEO"
+        android:textColor="@color/purpel" />
+    <Button
+        android:id="@+id/btntools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="382dp"
+        android:background="#fff"
+        android:text="@string/tools"
+        android:textColor="@color/purpel" />
+
+</RelativeLayout>
